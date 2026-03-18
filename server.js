@@ -16,7 +16,7 @@ const N8N_WEBHOOK_URL_TEST = 'https://fleppy.app.n8n.cloud/webhook-test/whatsapp
 const N8N_WEBHOOK_URL_PROD = 'https://fleppy.app.n8n.cloud/webhook/whatsapp';
 
 // Switch this to N8N_WEBHOOK_URL_PROD when you activate the workflow
-let N8N_WEBHOOK_URL = N8N_WEBHOOK_URL_TEST;
+let N8N_WEBHOOK_URL = N8N_WEBHOOK_URL_PROD;
 
 // ============================================
 // FORWARD TO N8N
