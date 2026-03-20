@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 3000;
 // n8n Webhook URLs
 // Use "webhook-test" when testing in n8n (click "Listen for Test Event")
 // Use "webhook" when workflow is activated (toggled ON)
-const N8N_WEBHOOK_URL_TEST = 'https://fleppy.app.n8n.cloud/webhook-test/whatsapp';
-const N8N_WEBHOOK_URL_PROD = 'https://fleppy.app.n8n.cloud/webhook/whatsapp';
+const N8N_WEBHOOK_URL_TEST = 'https://dishant234.app.n8n.cloud/webhook-test/whatsapp';
+const N8N_WEBHOOK_URL_PROD = 'https://dishant234.app.n8n.cloud/webhook/whatsapp';
 
 // Switch this to N8N_WEBHOOK_URL_PROD when you activate the workflow
 let N8N_WEBHOOK_URL = N8N_WEBHOOK_URL_PROD;
